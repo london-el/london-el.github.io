@@ -1,9 +1,42 @@
+/* Colours based on zenburn,
+ * See https://github.com/bbatsov/zenburn-emacs/blob/master/zenburn-theme.el
+ */
 body {
-    background-color: black;
-    color: white;
+    background-color: #3F3F3F;
+    color: #DCDCCC;
+    
     font-family: monospace;
+    font-size: 1.7em;
 
-    max-width: 600px;
+    max-width: 700px;
+    margin: 20px;
 }
 
+h1, h2, h3 {
+    color: #FFFFEF;
+}
 
+h1 {
+    margin-top: 0;
+}
+
+h1:before {
+    content: "* "
+}
+
+h2:before {
+    content: "** "
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;  
+}
+li:before {
+    content: "- "
+}
+
+a, a:visited, a:hover, a:active {
+    color: #93E0E3;
+    /* color: #7F9F7F; */
+}
