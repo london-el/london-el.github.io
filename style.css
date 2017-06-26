@@ -38,7 +38,6 @@ li:before {
 
 a, a:visited, a:hover, a:active {
     color: #93E0E3;
-    /* color: #7F9F7F; */
 }
 
 .border:before {
@@ -46,4 +45,15 @@ a, a:visited, a:hover, a:active {
 }
 .border:after {
     content: "]"
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 20px 0;
+    word-spacing: 2em;
+}
+
+footer:before {
+    content: "U:--"
 }
