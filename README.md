@@ -1,2 +1,5 @@
-# london-el.github.io
-london.el website
+# london.el webiste
+
+The london.el website, to keep people informed.
+
+PRs welcome.
